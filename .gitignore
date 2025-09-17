@@ -1,0 +1,5 @@
+/swifteda.egg-info
+/swifteda/__pycache__
+/swifteda/_version.py   
+/examples/datasets
+/pyproject.toml

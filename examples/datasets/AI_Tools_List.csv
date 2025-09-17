@@ -1,0 +1,41 @@
+AI Name,Developer/Company,Release Year,AI Type,Main Use Case,Popularity Score (1-10),Estimated_Valuation_Billion_USD
+ChatGPT,OpenAI,2022,Chatbot,Text Generation,10,85
+Claude,Anthropic,2023,Chatbot,Text Generation,8.5,4.5
+Gemini,Google DeepMind,2023,Chatbot,Text Generation,8.5,15
+Copilot,Microsoft,2023,Coding Assistant,Code Completion,8,NaN
+Midjourney,Midjourney,2022,Image Generator,Art Generation,9,1.5
+DALL·E,OpenAI,2021,Image Generator,Art Generation,8.5,85
+Stable Diffusion,Stability AI,2022,Image Generator,Art Generation,8,4
+Bard (Old),Google,2023,Chatbot,Text Generation,7.5,15
+DeepSeek,DeepSeek AI,2024,Chatbot,Text + Code Generation,7.5,0.1
+LLaMA,Meta,2023,LLM,Research,7,10
+Replika,"Luka, Inc.",2017,Chatbot,Companion,6.5,0.3
+Character.AI,Character Technologies,2022,Chatbot,Roleplay & Companion,7.5,1.2
+YouChat,You.com,2022,Chatbot,Search Assistant,6.5,0.1
+Poe,Quora,2023,Chatbot Hub,Multi-AI Access,6,1
+Pi,Inflection AI,2023,Chatbot,Emotional Support,6.5,1
+Perplexity,Perplexity AI,2023,Chatbot,Search + QA,7,0.1
+Runway ML,Runway,2021,Video Generator,Video Editing,7.5,1
+Synthesia,Synthesia,2020,Video Generator,AI Avatars,7,1
+HeyGen,HeyGen,2022,Video Generator,AI Avatars,6.5,0.1
+Descript,Descript,2020,Audio & Video,Editing & Voice Clone,6.5,1
+ElevenLabs,ElevenLabs,2022,Audio Generator,Voice Cloning,7.5,0.7
+Murf AI,Murf,2021,Audio Generator,Voiceover,6.5,0.1
+Leonardo.Ai,Leonardo AI,2023,Image Generator,Game Art,6.5,0.1
+Caktus AI,Caktus,2023,Education,Homework Help,6,0.1
+Elicit,OTTO AI,2022,Research Assistant,Literature Review,6,0.1
+SciSpace,TypeSet,2022,Research Assistant,Scientific QA,6,0.1
+Notion AI,Notion,2023,Productivity,Document Help,7,2
+Jasper,Jasper AI,2021,Marketing,Copywriting,6.5,1.75
+Copy.ai,Copy.ai,2021,Marketing,Copywriting,6,0.4
+Quillbot,Quillbot,2017,Writing Assistant,Paraphrasing,7,0.3
+GrammarlyGO,Grammarly,2023,Writing Assistant,Writing Help,7,1.35
+Tome,Tome,2022,Presentation Tool,AI Slides,6.5,0.1
+Beautiful.ai,Beautiful.ai,2021,Presentation Tool,Smart Slides,6,0.1
+Krea AI,Krea,2023,Image Generator,AI Design,6.5,0.1
+Pictory,Pictory,2021,Video Generator,Text-to-Video,6,0.1
+Deep Nostalgia,MyHeritage,2021,Image Animator,Old Photo Animation,5.5,0.5
+Grok,xAI,2023,Chatbot,Text Generation,6.5,15
+Tabnine,Codota,2020,Coding Assistant,Code Completion,6.5,0.1
+Blackbox AI,Blackbox AI,2022,Coding Assistant,Code Suggestion,6.5,0.1
+Adept ACT-1,Adept AI,2023,Action Agent,UI Automation,6,0.1

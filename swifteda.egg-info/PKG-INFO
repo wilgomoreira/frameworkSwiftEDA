@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: swifteda
+Version: 0.1.0
+Summary: A Python framework for rapid Exploratory Data Analysis (EDA) using a fluent API.
+Author-email: Wilgo Moreira <wilgomoreira@gmail.com>
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: Jinja2
+Requires-Dist: WeasyPrint

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swifteda"
+version = "0.1.0"
+description = "A Python framework for rapid Exploratory Data Analysis (EDA) using a fluent API."
+authors = [
+    {name = "Wilgo Moreira", email = "wilgomoreira@gmail.com"},
+]
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "Jinja2",       
+    "WeasyPrint",  
+]

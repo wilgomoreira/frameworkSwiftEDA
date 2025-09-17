@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ report_title }}</title>
+    <style>
+        @page {
+            size: A4 landscape; 
+            margin: 1.5cm;      
+        }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; }
+        h1, h2, h3 { color: #005a9c; border-bottom: 2px solid #005a9c; padding-bottom: 5px; }
+        .content { margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        img { max-width: 100%; height: auto; display: block; margin: 20px auto; border: 1px solid #ddd; }
+        pre { background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; white-space: pre-wrap; }
+        .page-break { page-break-after: always; }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Data Analysis Report: {{ report_title }}</h1>
+        <p>Report generated on: {{ generation_date }}</p>
+
+        <h2>1. Dataset Summary</h2>
+        <h3>General Information</h3>
+        <pre>{{ summary_info }}</pre>
+
+        <h3>Descriptive Statistics</h3>
+        {{ summary_describe_html | safe }}
+
+        <h3>Null Value Count</h3>
+        {{ summary_nulls_html | safe }}
+        
+        <div class="page-break"></div>
+
+        <h2>2. Categorical Variable Analysis</h2>
+        {% for cat in categorical_analysis %}
+            <h3>Column: {{ cat.name }}</h3>
+            {{ cat.table | safe }}
+            <img src="data:image/png;base64,{{ cat.plot_b64 }}" alt="Plot for {{ cat.name }}">
+        {% endfor %}
+
+        <div class="page-break"></div>
+        
+        <h2>3. Correlation Analysis</h2>
+        <img src="data:image/png;base64,{{ correlation_plot_b64 }}" alt="Correlation Map">
+        <h3>Top 5 Correlations</h3>
+        {{ correlation_table | safe }}
+        
+        {% if classification_results %}
+        <div class="page-break"></div>
+        <h2>4. Machine Learning Benchmark Results</h2>
+        <h3>Classification Report</h3>
+        <pre>{{ classification_results.report }}</pre>
+        <h3>Confusion Matrix</h3>
+        {{ classification_results.confusion_matrix_html | safe }} {% endif %}
+    </div>
+</body>
+</html>
