@@ -1,6 +1,0 @@
-pandas
-matplotlib
-seaborn
-scikit-learn
-Jinja2
-WeasyPrint
